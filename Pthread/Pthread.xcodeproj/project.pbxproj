@@ -16,6 +16,7 @@
 		903BEE6F212DAFBF000E9C9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 903BEE6A212DAFBF000E9C9D /* ViewController.m */; };
 		903BEE70212DAFBF000E9C9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 903BEE6E212DAFBF000E9C9D /* AppDelegate.m */; };
 		903BEE75212DB16B000E9C9D /* Proress.m in Sources */ = {isa = PBXBuildFile; fileRef = 903BEE74212DB16B000E9C9D /* Proress.m */; };
+		90B1E8B3212ED02100B5DA7F /* tu_en@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B1E8B1212ED02100B5DA7F /* tu_en@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +53,10 @@
 		903BEE6B212DAFBF000E9C9D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		903BEE6D212DAFBF000E9C9D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		903BEE6E212DAFBF000E9C9D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		903BEE73212DB16B000E9C9D /* Proress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Proress.h; sourceTree = "<group>"; };
-		903BEE74212DB16B000E9C9D /* Proress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Proress.m; sourceTree = "<group>"; };
+		903BEE73212DB16B000E9C9D /* Proress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Proress.h; sourceTree = "<group>"; };
+		903BEE74212DB16B000E9C9D /* Proress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Proress.m; sourceTree = "<group>"; };
+		90B1E8B2212ED02100B5DA7F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/tu_en@2x.png"; sourceTree = "<group>"; };
+		90B1E8B4212ED03000B5DA7F /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/tu_en@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		903BEE36212DAF3A000E9C9D /* Pthread */ = {
 			isa = PBXGroup;
 			children = (
+				90B1E8B1212ED02100B5DA7F /* tu_en@2x.png */,
 				903BEE71212DB10F000E9C9D /* Chapers */,
 				903BEE6C212DAFBF000E9C9D /* AppDelegate */,
 				903BEE69212DAFBF000E9C9D /* ViewController */,
@@ -137,8 +141,8 @@
 		903BEE69212DAFBF000E9C9D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				903BEE6A212DAFBF000E9C9D /* ViewController.m */,
 				903BEE6B212DAFBF000E9C9D /* ViewController.h */,
+				903BEE6A212DAFBF000E9C9D /* ViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -252,8 +256,9 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				"zh-Hans",
+				en,
 			);
 			mainGroup = 903BEE2B212DAF3A000E9C9D;
 			productRefGroup = 903BEE35212DAF3A000E9C9D /* Products */;
@@ -272,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90B1E8B3212ED02100B5DA7F /* tu_en@2x.png in Resources */,
 				903BEE44212DAF3B000E9C9D /* LaunchScreen.storyboard in Resources */,
 				903BEE41212DAF3B000E9C9D /* Assets.xcassets in Resources */,
 				903BEE3F212DAF3A000E9C9D /* Main.storyboard in Resources */,
@@ -354,6 +360,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		90B1E8B1212ED02100B5DA7F /* tu_en@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90B1E8B2212ED02100B5DA7F /* zh-Hans */,
+				90B1E8B4212ED03000B5DA7F /* en */,
+			);
+			name = "tu_en@2x.png";
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -361,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -408,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -419,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -460,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

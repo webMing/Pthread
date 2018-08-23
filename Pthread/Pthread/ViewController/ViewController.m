@@ -22,6 +22,7 @@
 @interface ViewController ()
 /** proInof */
 @property (strong, nonatomic) Proress *proInof;
+@property (weak, nonatomic) IBOutlet UIImageView *locationImgView;
 
 @end
 
@@ -32,6 +33,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setUpProess];
+//    NSString* imgName = NSLocalizedString(@"steimg", nil);
+//    UIImage *img = [UIImage imageNamed:imgName];
+//    self.locationImgView.image = img;
 }
 
 - (void)didReceiveMemoryWarning {
