@@ -16,7 +16,7 @@
 		903BEE6F212DAFBF000E9C9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 903BEE6A212DAFBF000E9C9D /* ViewController.m */; };
 		903BEE70212DAFBF000E9C9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 903BEE6E212DAFBF000E9C9D /* AppDelegate.m */; };
 		903BEE75212DB16B000E9C9D /* Proress.m in Sources */ = {isa = PBXBuildFile; fileRef = 903BEE74212DB16B000E9C9D /* Proress.m */; };
-		90B1E8B3212ED02100B5DA7F /* tu_en@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B1E8B1212ED02100B5DA7F /* tu_en@2x.png */; };
+		909BAA1A212F10C400F543AF /* tu_en@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 909BAA18212F10C400F543AF /* tu_en@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,9 @@
 		903BEE6E212DAFBF000E9C9D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		903BEE73212DB16B000E9C9D /* Proress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Proress.h; sourceTree = "<group>"; };
 		903BEE74212DB16B000E9C9D /* Proress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Proress.m; sourceTree = "<group>"; };
-		90B1E8B2212ED02100B5DA7F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/tu_en@2x.png"; sourceTree = "<group>"; };
-		90B1E8B4212ED03000B5DA7F /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/tu_en@2x.png"; sourceTree = "<group>"; };
+		909BAA16212F0C7700F543AF /* 国际化图片说明.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "国际化图片说明.md"; sourceTree = "<group>"; };
+		909BAA19212F10C400F543AF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "Pthread/zh-Hans.lproj/tu_en@2x.png"; sourceTree = SOURCE_ROOT; };
+		909BAA1B212F10CF00F543AF /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "Pthread/en.lproj/tu_en@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +108,7 @@
 		903BEE36212DAF3A000E9C9D /* Pthread */ = {
 			isa = PBXGroup;
 			children = (
-				90B1E8B1212ED02100B5DA7F /* tu_en@2x.png */,
+				909BAA17212F109400F543AF /* InternationalImgs */,
 				903BEE71212DB10F000E9C9D /* Chapers */,
 				903BEE6C212DAFBF000E9C9D /* AppDelegate */,
 				903BEE69212DAFBF000E9C9D /* ViewController */,
@@ -116,6 +117,7 @@
 				903BEE42212DAF3B000E9C9D /* LaunchScreen.storyboard */,
 				903BEE45212DAF3B000E9C9D /* Info.plist */,
 				903BEE46212DAF3B000E9C9D /* main.m */,
+				909BAA16212F0C7700F543AF /* 国际化图片说明.md */,
 			);
 			path = Pthread;
 			sourceTree = "<group>";
@@ -171,6 +173,14 @@
 				903BEE74212DB16B000E9C9D /* Proress.m */,
 			);
 			path = ch0;
+			sourceTree = "<group>";
+		};
+		909BAA17212F109400F543AF /* InternationalImgs */ = {
+			isa = PBXGroup;
+			children = (
+				909BAA18212F10C400F543AF /* tu_en@2x.png */,
+			);
+			path = InternationalImgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90B1E8B3212ED02100B5DA7F /* tu_en@2x.png in Resources */,
+				909BAA1A212F10C400F543AF /* tu_en@2x.png in Resources */,
 				903BEE44212DAF3B000E9C9D /* LaunchScreen.storyboard in Resources */,
 				903BEE41212DAF3B000E9C9D /* Assets.xcassets in Resources */,
 				903BEE3F212DAF3A000E9C9D /* Main.storyboard in Resources */,
@@ -360,11 +370,11 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		90B1E8B1212ED02100B5DA7F /* tu_en@2x.png */ = {
+		909BAA18212F10C400F543AF /* tu_en@2x.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				90B1E8B2212ED02100B5DA7F /* zh-Hans */,
-				90B1E8B4212ED03000B5DA7F /* en */,
+				909BAA19212F10C400F543AF /* zh-Hans */,
+				909BAA1B212F10CF00F543AF /* en */,
 			);
 			name = "tu_en@2x.png";
 			sourceTree = "<group>";

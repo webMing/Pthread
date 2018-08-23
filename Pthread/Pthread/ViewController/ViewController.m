@@ -19,11 +19,12 @@
 
 #import "Proress.h"
 
+#define MAXXX  50
+
 @interface ViewController ()
 /** proInof */
 @property (strong, nonatomic) Proress *proInof;
 @property (weak, nonatomic) IBOutlet UIImageView *locationImgView;
-
 @end
 
 @implementation ViewController
@@ -33,9 +34,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setUpProess];
-//    NSString* imgName = NSLocalizedString(@"steimg", nil);
-//    UIImage *img = [UIImage imageNamed:imgName];
-//    self.locationImgView.image = img;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -43,6 +41,12 @@
 }
 
 #pragma mark- SetUpView
+
+- (void)initImg {
+    //    NSString* imgName = NSLocalizedString(@"steimg", nil);
+    //    UIImage *img = [UIImage imageNamed:imgName];
+    //    self.locationImgView.image = img;
+}
 
 - (void)setUpProess {
     [self.proInof printPID];
@@ -57,6 +61,7 @@
 #pragma mark- DelegateMethod
 
 #pragma mark- GetterAndSetter
+
 - (Proress *)proInof {
     if (!_proInof) {
         _proInof = [Proress new];
