@@ -9,7 +9,14 @@
 #import <Foundation/Foundation.h>
 
 @interface Proress : NSObject
+
 - (void)printPID;
 - (void)printPPID;
 - (void)printGID;
+
+- (void)forkExaple1;
+- (void)forkExaple2;
+- (void)forkExaple3;
+- (void)forkExaple4;
+
 @end

@@ -19,8 +19,6 @@
 
 #import "Proress.h"
 
-#define MAXXX  50
-
 @interface ViewController ()
 /** proInof */
 @property (strong, nonatomic) Proress *proInof;
@@ -33,7 +31,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setUpProess];
+    //[self setUpProess];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [self setUpFockExaple];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -43,15 +46,22 @@
 #pragma mark- SetUpView
 
 - (void)initImg {
-    //    NSString* imgName = NSLocalizedString(@"steimg", nil);
-    //    UIImage *img = [UIImage imageNamed:imgName];
-    //    self.locationImgView.image = img;
+ // NSString* imgName = NSLocalizedString(@"steimg", nil);
+ // UIImage *img = [UIImage imageNamed:imgName];
+ // self.locationImgView.image = img;
 }
 
 - (void)setUpProess {
     [self.proInof printPID];
     [self.proInof printPPID];
     [self.proInof printGID];
+}
+
+- (void)setUpFockExaple {
+    //[self.proInof forkExaple1];
+    //[self.proInof forkExaple2];
+    //[self.proInof forkExaple3];
+    [self.proInof forkExaple4];
 }
 
 #pragma mark- EventRespone
