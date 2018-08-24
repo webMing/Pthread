@@ -10,6 +10,11 @@
 
 #import <unistd.h>
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <pthread.h>
+#include <sched.h>
+
 @implementation Proress
 
 #pragma mark- LifeCicle
@@ -147,8 +152,34 @@
 }
 
 // clone 创建子线程
+
+int FIBER_STACK = 8192;
+int a = 2;
+void *stack;
+
+void doSomeThing() {
+    a = 10;
+    printf("I am sub procces, my pid is :%d \n ",getpid());
+    free(stack);
+    exit(0);
+}
+
 - (void)forkExaple5 {
+    a = 1;
+    stack = malloc(FIBER_STACK);
+    if (!stack) {
+        printf("The stack failed \n");
+        exit(0);
+    }
+     printf("Create sub proccess \n");
+     //clone(&doSomeThing, (char *)stack + FIBER_STACK, CLONE_VM | CLONE_VFORK, 0);//创建子线程
+     printf("Parent proccess , my pid is: %d, the a is: %d ", getpid(), a);
     
+     /*
+       clone和fork的区别：
+      （1）clone和fork的调用方式很不相同,clone调用需要传入一个函数,该函数在子进程中执行.
+      （2）clone和fork最大不同在于clone不再复制父进程的栈空间,而是自己创建一个新的;（void *child_stack）也就是第二个参数,需要分配栈指针的空间大小,所以它不再是继承或者复制,而是全新的创造.
+      */
 }
 
 @end
