@@ -26,7 +26,8 @@ int main(void)
 	else if (pid == 0) /*child*/
         {
 		execlp(buf,buf,(char *)0);
-		err_ret("couldn`t excute:%s",buf);
+		//err_ret("couldn`t excute:%s",buf);
+		printf("couldn`t excute:%s",buf);
 		exit(127);
 	}
 	
