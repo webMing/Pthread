@@ -55,6 +55,7 @@
 		903BEE6E212DAFBF000E9C9D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		903BEE73212DB16B000E9C9D /* Proress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Proress.h; sourceTree = "<group>"; };
 		903BEE74212DB16B000E9C9D /* Proress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Proress.m; sourceTree = "<group>"; };
+		908F9DFE21305F4D005F72ED /* BookList.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BookList.md; sourceTree = "<group>"; };
 		909BAA16212F0C7700F543AF /* 国际化图片说明.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "国际化图片说明.md"; sourceTree = "<group>"; };
 		909BAA19212F10C400F543AF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "Pthread/zh-Hans.lproj/tu_en@2x.png"; sourceTree = SOURCE_ROOT; };
 		909BAA1B212F10CF00F543AF /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "Pthread/en.lproj/tu_en@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -118,6 +119,7 @@
 				903BEE45212DAF3B000E9C9D /* Info.plist */,
 				903BEE46212DAF3B000E9C9D /* main.m */,
 				909BAA16212F0C7700F543AF /* 国际化图片说明.md */,
+				908F9DFE21305F4D005F72ED /* BookList.md */,
 			);
 			path = Pthread;
 			sourceTree = "<group>";

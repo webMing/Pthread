@@ -15,9 +15,11 @@
 #include <pthread.h>
 #include <sched.h>
 
+
 @implementation Proress
 
 #pragma mark- LifeCicle
+
 - (instancetype)init {
     if (self = [super init]) {
     }
@@ -175,11 +177,15 @@ void doSomeThing() {
      //clone(&doSomeThing, (char *)stack + FIBER_STACK, CLONE_VM | CLONE_VFORK, 0);//创建子线程
      printf("Parent proccess , my pid is: %d, the a is: %d ", getpid(), a);
     
+    
      /*
        clone和fork的区别：
       （1）clone和fork的调用方式很不相同,clone调用需要传入一个函数,该函数在子进程中执行.
       （2）clone和fork最大不同在于clone不再复制父进程的栈空间,而是自己创建一个新的;（void *child_stack）也就是第二个参数,需要分配栈指针的空间大小,所以它不再是继承或者复制,而是全新的创造.
       */
+    
+      //参考链接  https://blog.csdn.net/gogokongyin/article/details/51178257
+    
 }
 
 @end
