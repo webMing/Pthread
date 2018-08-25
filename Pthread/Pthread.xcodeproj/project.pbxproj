@@ -18,63 +18,12 @@
 		903BEE75212DB16B000E9C9D /* Proress.m in Sources */ = {isa = PBXBuildFile; fileRef = 903BEE74212DB16B000E9C9D /* Proress.m */; };
 		909BAA1A212F10C400F543AF /* tu_en@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 909BAA18212F10C400F543AF /* tu_en@2x.png */; };
 		90E6B7772130F546005720B1 /* BookList.md in Resources */ = {isa = PBXBuildFile; fileRef = 90E6B7362130F546005720B1 /* BookList.md */; };
-		90E6B7782130F546005720B1 /* thread_error.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7392130F546005720B1 /* thread_error.c */; };
-		90E6B7792130F546005720B1 /* alarm_thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B73A2130F546005720B1 /* alarm_thread.c */; };
-		90E6B77A2130F546005720B1 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B73B2130F546005720B1 /* thread.c */; };
-		90E6B77B2130F546005720B1 /* mutex_dynamic.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B73C2130F546005720B1 /* mutex_dynamic.c */; };
-		90E6B77C2130F546005720B1 /* crew.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B73D2130F546005720B1 /* crew.c */; };
-		90E6B77D2130F546005720B1 /* backoff.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B73E2130F546005720B1 /* backoff.c */; };
-		90E6B77E2130F546005720B1 /* flock.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B73F2130F546005720B1 /* flock.c */; };
-		90E6B77F2130F546005720B1 /* alarm_cond.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7402130F546005720B1 /* alarm_cond.c */; };
-		90E6B7802130F546005720B1 /* cond_attr.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7412130F546005720B1 /* cond_attr.c */; };
-		90E6B7812130F546005720B1 /* tsd_once.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7422130F546005720B1 /* tsd_once.c */; };
-		90E6B7822130F546005720B1 /* hello.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7432130F546005720B1 /* hello.c */; };
-		90E6B7832130F546005720B1 /* tsd_destructor.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7442130F546005720B1 /* tsd_destructor.c */; };
-		90E6B7842130F546005720B1 /* pipe.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7452130F546005720B1 /* pipe.c */; };
-		90E6B7852130F546005720B1 /* once.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7462130F546005720B1 /* once.c */; };
-		90E6B7862130F546005720B1 /* rwlock_try_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7482130F546005720B1 /* rwlock_try_main.c */; };
-		90E6B7872130F546005720B1 /* inertia.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7492130F546005720B1 /* inertia.c */; };
-		90E6B7882130F546005720B1 /* cancel.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B74A2130F546005720B1 /* cancel.c */; };
-		90E6B7892130F546005720B1 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B74B2130F546005720B1 /* Makefile */; };
-		90E6B78A2130F546005720B1 /* cond_static.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B74C2130F546005720B1 /* cond_static.c */; };
-		90E6B78B2130F546005720B1 /* cond.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B74E2130F546005720B1 /* cond.c */; };
-		90E6B78C2130F546005720B1 /* semaphore_signal.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7512130F546005720B1 /* semaphore_signal.c */; };
-		90E6B78D2130F546005720B1 /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7522130F546005720B1 /* server.c */; };
-		90E6B78E2130F546005720B1 /* mutex_static.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7532130F546005720B1 /* mutex_static.c */; };
-		90E6B78F2130F546005720B1 /* alarm_fork.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7542130F546005720B1 /* alarm_fork.c */; };
-		90E6B7902130F546005720B1 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 90E6B7552130F546005720B1 /* README */; };
-		90E6B7912130F546005720B1 /* cancel_async.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7562130F546005720B1 /* cancel_async.c */; };
-		90E6B7922130F546005720B1 /* barrier_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7572130F546005720B1 /* barrier_main.c */; };
-		90E6B7932130F546005720B1 /* putchar.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7582130F546005720B1 /* putchar.c */; };
-		90E6B7942130F546005720B1 /* cond_dynamic.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7592130F546005720B1 /* cond_dynamic.c */; };
-		90E6B7952130F546005720B1 /* cancel_disable.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B75A2130F546005720B1 /* cancel_disable.c */; };
-		90E6B7962130F546005720B1 /* sigwait.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B75B2130F546005720B1 /* sigwait.c */; };
-		90E6B7972130F546005720B1 /* susp.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B75C2130F546005720B1 /* susp.c */; };
-		90E6B7982130F546005720B1 /* sched_thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B75D2130F546005720B1 /* sched_thread.c */; };
-		90E6B7992130F546005720B1 /* barrier.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B75E2130F546005720B1 /* barrier.c */; };
-		90E6B79A2130F546005720B1 /* atfork.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B75F2130F546005720B1 /* atfork.c */; };
-		90E6B79B2130F546005720B1 /* alarm.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7602130F546005720B1 /* alarm.c */; };
-		90E6B79C2130F546005720B1 /* alarm_mutex.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7612130F546005720B1 /* alarm_mutex.c */; };
-		90E6B79D2130F546005720B1 /* rwlock.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7622130F546005720B1 /* rwlock.c */; };
-		90E6B79E2130F546005720B1 /* trylock.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7632130F546005720B1 /* trylock.c */; };
-		90E6B79F2130F546005720B1 /* rwlock_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7642130F546005720B1 /* rwlock_main.c */; };
-		90E6B7A02130F546005720B1 /* thread_attr.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7652130F546005720B1 /* thread_attr.c */; };
-		90E6B7A12130F546005720B1 /* workq.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7662130F546005720B1 /* workq.c */; };
-		90E6B7A22130F546005720B1 /* cancel_subcontract.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7672130F546005720B1 /* cancel_subcontract.c */; };
-		90E6B7A32130F546005720B1 /* sched_attr.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7682130F546005720B1 /* sched_attr.c */; };
-		90E6B7A42130F546005720B1 /* sigev_thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B7692130F546005720B1 /* sigev_thread.c */; };
-		90E6B7A52130F546005720B1 /* cancel_cleanup.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B76A2130F546005720B1 /* cancel_cleanup.c */; };
-		90E6B7A62130F546005720B1 /* lifecycle.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B76B2130F546005720B1 /* lifecycle.c */; };
-		90E6B7A72130F546005720B1 /* semaphore_wait.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B76C2130F546005720B1 /* semaphore_wait.c */; };
-		90E6B7A82130F546005720B1 /* workq_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B76D2130F546005720B1 /* workq_main.c */; };
-		90E6B7A92130F546005720B1 /* getlogin.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B76E2130F546005720B1 /* getlogin.c */; };
-		90E6B7AA2130F546005720B1 /* mutex_attr.c in Sources */ = {isa = PBXBuildFile; fileRef = 90E6B76F2130F546005720B1 /* mutex_attr.c */; };
-		90E6B7AB2130F546005720B1 /* Programming with POSIX Threads_ch.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90E6B7702130F546005720B1 /* Programming with POSIX Threads_ch.pdf */; };
-		90E6B7AC2130F546005720B1 /* Programming With POSIX Threads_en.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90E6B7712130F546005720B1 /* Programming With POSIX Threads_en.pdf */; };
 		90E6B7AD2130F546005720B1 /* UNIX环境高级编程（中文第三版）_扫描版_22.2M.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90E6B7732130F546005720B1 /* UNIX环境高级编程（中文第三版）_扫描版_22.2M.pdf */; };
 		90E6B7AE2130F546005720B1 /* 电子书大全.url in Resources */ = {isa = PBXBuildFile; fileRef = 90E6B7742130F546005720B1 /* 电子书大全.url */; };
 		90E6B7AF2130F546005720B1 /* epub阅读器.url in Resources */ = {isa = PBXBuildFile; fileRef = 90E6B7752130F546005720B1 /* epub阅读器.url */; };
 		90E6B7B02130F546005720B1 /* PDF阅读器下载.url in Resources */ = {isa = PBXBuildFile; fileRef = 90E6B7762130F546005720B1 /* PDF阅读器下载.url */; };
+		90E6B81F2130F5D9005720B1 /* Programming with POSIX Threads_ch.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90E6B7EA2130F5D8005720B1 /* Programming with POSIX Threads_ch.pdf */; };
+		90E6B8202130F5D9005720B1 /* Programming With POSIX Threads_en.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90E6B7EB2130F5D8005720B1 /* Programming With POSIX Threads_en.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,67 +66,12 @@
 		909BAA19212F10C400F543AF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "Pthread/zh-Hans.lproj/tu_en@2x.png"; sourceTree = SOURCE_ROOT; };
 		909BAA1B212F10CF00F543AF /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "Pthread/en.lproj/tu_en@2x.png"; sourceTree = SOURCE_ROOT; };
 		90E6B7362130F546005720B1 /* BookList.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BookList.md; sourceTree = "<group>"; };
-		90E6B7392130F546005720B1 /* thread_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = thread_error.c; sourceTree = "<group>"; };
-		90E6B73A2130F546005720B1 /* alarm_thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = alarm_thread.c; sourceTree = "<group>"; };
-		90E6B73B2130F546005720B1 /* thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = thread.c; sourceTree = "<group>"; };
-		90E6B73C2130F546005720B1 /* mutex_dynamic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mutex_dynamic.c; sourceTree = "<group>"; };
-		90E6B73D2130F546005720B1 /* crew.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crew.c; sourceTree = "<group>"; };
-		90E6B73E2130F546005720B1 /* backoff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = backoff.c; sourceTree = "<group>"; };
-		90E6B73F2130F546005720B1 /* flock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = flock.c; sourceTree = "<group>"; };
-		90E6B7402130F546005720B1 /* alarm_cond.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = alarm_cond.c; sourceTree = "<group>"; };
-		90E6B7412130F546005720B1 /* cond_attr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cond_attr.c; sourceTree = "<group>"; };
-		90E6B7422130F546005720B1 /* tsd_once.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tsd_once.c; sourceTree = "<group>"; };
-		90E6B7432130F546005720B1 /* hello.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hello.c; sourceTree = "<group>"; };
-		90E6B7442130F546005720B1 /* tsd_destructor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tsd_destructor.c; sourceTree = "<group>"; };
-		90E6B7452130F546005720B1 /* pipe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pipe.c; sourceTree = "<group>"; };
-		90E6B7462130F546005720B1 /* once.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = once.c; sourceTree = "<group>"; };
-		90E6B7472130F546005720B1 /* barrier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = barrier.h; sourceTree = "<group>"; };
-		90E6B7482130F546005720B1 /* rwlock_try_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rwlock_try_main.c; sourceTree = "<group>"; };
-		90E6B7492130F546005720B1 /* inertia.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inertia.c; sourceTree = "<group>"; };
-		90E6B74A2130F546005720B1 /* cancel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cancel.c; sourceTree = "<group>"; };
-		90E6B74B2130F546005720B1 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		90E6B74C2130F546005720B1 /* cond_static.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cond_static.c; sourceTree = "<group>"; };
-		90E6B74D2130F546005720B1 /* workq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = workq.h; sourceTree = "<group>"; };
-		90E6B74E2130F546005720B1 /* cond.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cond.c; sourceTree = "<group>"; };
-		90E6B74F2130F546005720B1 /* rwlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rwlock.h; sourceTree = "<group>"; };
-		90E6B7502130F546005720B1 /* errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errors.h; sourceTree = "<group>"; };
-		90E6B7512130F546005720B1 /* semaphore_signal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = semaphore_signal.c; sourceTree = "<group>"; };
-		90E6B7522130F546005720B1 /* server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = server.c; sourceTree = "<group>"; };
-		90E6B7532130F546005720B1 /* mutex_static.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mutex_static.c; sourceTree = "<group>"; };
-		90E6B7542130F546005720B1 /* alarm_fork.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = alarm_fork.c; sourceTree = "<group>"; };
-		90E6B7552130F546005720B1 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		90E6B7562130F546005720B1 /* cancel_async.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cancel_async.c; sourceTree = "<group>"; };
-		90E6B7572130F546005720B1 /* barrier_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = barrier_main.c; sourceTree = "<group>"; };
-		90E6B7582130F546005720B1 /* putchar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = putchar.c; sourceTree = "<group>"; };
-		90E6B7592130F546005720B1 /* cond_dynamic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cond_dynamic.c; sourceTree = "<group>"; };
-		90E6B75A2130F546005720B1 /* cancel_disable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cancel_disable.c; sourceTree = "<group>"; };
-		90E6B75B2130F546005720B1 /* sigwait.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sigwait.c; sourceTree = "<group>"; };
-		90E6B75C2130F546005720B1 /* susp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = susp.c; sourceTree = "<group>"; };
-		90E6B75D2130F546005720B1 /* sched_thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sched_thread.c; sourceTree = "<group>"; };
-		90E6B75E2130F546005720B1 /* barrier.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = barrier.c; sourceTree = "<group>"; };
-		90E6B75F2130F546005720B1 /* atfork.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = atfork.c; sourceTree = "<group>"; };
-		90E6B7602130F546005720B1 /* alarm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = alarm.c; sourceTree = "<group>"; };
-		90E6B7612130F546005720B1 /* alarm_mutex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = alarm_mutex.c; sourceTree = "<group>"; };
-		90E6B7622130F546005720B1 /* rwlock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rwlock.c; sourceTree = "<group>"; };
-		90E6B7632130F546005720B1 /* trylock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = trylock.c; sourceTree = "<group>"; };
-		90E6B7642130F546005720B1 /* rwlock_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rwlock_main.c; sourceTree = "<group>"; };
-		90E6B7652130F546005720B1 /* thread_attr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = thread_attr.c; sourceTree = "<group>"; };
-		90E6B7662130F546005720B1 /* workq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = workq.c; sourceTree = "<group>"; };
-		90E6B7672130F546005720B1 /* cancel_subcontract.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cancel_subcontract.c; sourceTree = "<group>"; };
-		90E6B7682130F546005720B1 /* sched_attr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sched_attr.c; sourceTree = "<group>"; };
-		90E6B7692130F546005720B1 /* sigev_thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sigev_thread.c; sourceTree = "<group>"; };
-		90E6B76A2130F546005720B1 /* cancel_cleanup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cancel_cleanup.c; sourceTree = "<group>"; };
-		90E6B76B2130F546005720B1 /* lifecycle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lifecycle.c; sourceTree = "<group>"; };
-		90E6B76C2130F546005720B1 /* semaphore_wait.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = semaphore_wait.c; sourceTree = "<group>"; };
-		90E6B76D2130F546005720B1 /* workq_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = workq_main.c; sourceTree = "<group>"; };
-		90E6B76E2130F546005720B1 /* getlogin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getlogin.c; sourceTree = "<group>"; };
-		90E6B76F2130F546005720B1 /* mutex_attr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mutex_attr.c; sourceTree = "<group>"; };
-		90E6B7702130F546005720B1 /* Programming with POSIX Threads_ch.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Programming with POSIX Threads_ch.pdf"; sourceTree = "<group>"; };
-		90E6B7712130F546005720B1 /* Programming With POSIX Threads_en.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Programming With POSIX Threads_en.pdf"; sourceTree = "<group>"; };
 		90E6B7732130F546005720B1 /* UNIX环境高级编程（中文第三版）_扫描版_22.2M.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "UNIX环境高级编程（中文第三版）_扫描版_22.2M.pdf"; sourceTree = "<group>"; };
 		90E6B7742130F546005720B1 /* 电子书大全.url */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "电子书大全.url"; sourceTree = "<group>"; };
 		90E6B7752130F546005720B1 /* epub阅读器.url */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "epub阅读器.url"; sourceTree = "<group>"; };
 		90E6B7762130F546005720B1 /* PDF阅读器下载.url */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PDF阅读器下载.url"; sourceTree = "<group>"; };
+		90E6B7EA2130F5D8005720B1 /* Programming with POSIX Threads_ch.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Programming with POSIX Threads_ch.pdf"; sourceTree = "<group>"; };
+		90E6B7EB2130F5D8005720B1 /* Programming With POSIX Threads_en.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Programming With POSIX Threads_en.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -308,82 +202,10 @@
 			isa = PBXGroup;
 			children = (
 				90E6B7362130F546005720B1 /* BookList.md */,
-				90E6B7372130F546005720B1 /* programmingWithPOSIXPtread */,
+				90E6B7B12130F5D8005720B1 /* programmingWithPOSIXPthread */,
 				90E6B7722130F546005720B1 /* APUE */,
 			);
 			path = bookList;
-			sourceTree = "<group>";
-		};
-		90E6B7372130F546005720B1 /* programmingWithPOSIXPtread */ = {
-			isa = PBXGroup;
-			children = (
-				90E6B7382130F546005720B1 /* programs_src */,
-				90E6B7702130F546005720B1 /* Programming with POSIX Threads_ch.pdf */,
-				90E6B7712130F546005720B1 /* Programming With POSIX Threads_en.pdf */,
-			);
-			path = programmingWithPOSIXPtread;
-			sourceTree = "<group>";
-		};
-		90E6B7382130F546005720B1 /* programs_src */ = {
-			isa = PBXGroup;
-			children = (
-				90E6B7392130F546005720B1 /* thread_error.c */,
-				90E6B73A2130F546005720B1 /* alarm_thread.c */,
-				90E6B73B2130F546005720B1 /* thread.c */,
-				90E6B73C2130F546005720B1 /* mutex_dynamic.c */,
-				90E6B73D2130F546005720B1 /* crew.c */,
-				90E6B73E2130F546005720B1 /* backoff.c */,
-				90E6B73F2130F546005720B1 /* flock.c */,
-				90E6B7402130F546005720B1 /* alarm_cond.c */,
-				90E6B7412130F546005720B1 /* cond_attr.c */,
-				90E6B7422130F546005720B1 /* tsd_once.c */,
-				90E6B7432130F546005720B1 /* hello.c */,
-				90E6B7442130F546005720B1 /* tsd_destructor.c */,
-				90E6B7452130F546005720B1 /* pipe.c */,
-				90E6B7462130F546005720B1 /* once.c */,
-				90E6B7472130F546005720B1 /* barrier.h */,
-				90E6B7482130F546005720B1 /* rwlock_try_main.c */,
-				90E6B7492130F546005720B1 /* inertia.c */,
-				90E6B74A2130F546005720B1 /* cancel.c */,
-				90E6B74B2130F546005720B1 /* Makefile */,
-				90E6B74C2130F546005720B1 /* cond_static.c */,
-				90E6B74D2130F546005720B1 /* workq.h */,
-				90E6B74E2130F546005720B1 /* cond.c */,
-				90E6B74F2130F546005720B1 /* rwlock.h */,
-				90E6B7502130F546005720B1 /* errors.h */,
-				90E6B7512130F546005720B1 /* semaphore_signal.c */,
-				90E6B7522130F546005720B1 /* server.c */,
-				90E6B7532130F546005720B1 /* mutex_static.c */,
-				90E6B7542130F546005720B1 /* alarm_fork.c */,
-				90E6B7552130F546005720B1 /* README */,
-				90E6B7562130F546005720B1 /* cancel_async.c */,
-				90E6B7572130F546005720B1 /* barrier_main.c */,
-				90E6B7582130F546005720B1 /* putchar.c */,
-				90E6B7592130F546005720B1 /* cond_dynamic.c */,
-				90E6B75A2130F546005720B1 /* cancel_disable.c */,
-				90E6B75B2130F546005720B1 /* sigwait.c */,
-				90E6B75C2130F546005720B1 /* susp.c */,
-				90E6B75D2130F546005720B1 /* sched_thread.c */,
-				90E6B75E2130F546005720B1 /* barrier.c */,
-				90E6B75F2130F546005720B1 /* atfork.c */,
-				90E6B7602130F546005720B1 /* alarm.c */,
-				90E6B7612130F546005720B1 /* alarm_mutex.c */,
-				90E6B7622130F546005720B1 /* rwlock.c */,
-				90E6B7632130F546005720B1 /* trylock.c */,
-				90E6B7642130F546005720B1 /* rwlock_main.c */,
-				90E6B7652130F546005720B1 /* thread_attr.c */,
-				90E6B7662130F546005720B1 /* workq.c */,
-				90E6B7672130F546005720B1 /* cancel_subcontract.c */,
-				90E6B7682130F546005720B1 /* sched_attr.c */,
-				90E6B7692130F546005720B1 /* sigev_thread.c */,
-				90E6B76A2130F546005720B1 /* cancel_cleanup.c */,
-				90E6B76B2130F546005720B1 /* lifecycle.c */,
-				90E6B76C2130F546005720B1 /* semaphore_wait.c */,
-				90E6B76D2130F546005720B1 /* workq_main.c */,
-				90E6B76E2130F546005720B1 /* getlogin.c */,
-				90E6B76F2130F546005720B1 /* mutex_attr.c */,
-			);
-			path = programs_src;
 			sourceTree = "<group>";
 		};
 		90E6B7722130F546005720B1 /* APUE */ = {
@@ -395,6 +217,15 @@
 				90E6B7762130F546005720B1 /* PDF阅读器下载.url */,
 			);
 			path = APUE;
+			sourceTree = "<group>";
+		};
+		90E6B7B12130F5D8005720B1 /* programmingWithPOSIXPthread */ = {
+			isa = PBXGroup;
+			children = (
+				90E6B7EA2130F5D8005720B1 /* Programming with POSIX Threads_ch.pdf */,
+				90E6B7EB2130F5D8005720B1 /* Programming With POSIX Threads_en.pdf */,
+			);
+			path = programmingWithPOSIXPthread;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -502,14 +333,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				90E6B7AE2130F546005720B1 /* 电子书大全.url in Resources */,
-				90E6B7902130F546005720B1 /* README in Resources */,
 				909BAA1A212F10C400F543AF /* tu_en@2x.png in Resources */,
-				90E6B7AB2130F546005720B1 /* Programming with POSIX Threads_ch.pdf in Resources */,
 				90E6B7772130F546005720B1 /* BookList.md in Resources */,
-				90E6B7AC2130F546005720B1 /* Programming With POSIX Threads_en.pdf in Resources */,
 				90E6B7AF2130F546005720B1 /* epub阅读器.url in Resources */,
 				903BEE44212DAF3B000E9C9D /* LaunchScreen.storyboard in Resources */,
 				903BEE41212DAF3B000E9C9D /* Assets.xcassets in Resources */,
+				90E6B81F2130F5D9005720B1 /* Programming with POSIX Threads_ch.pdf in Resources */,
+				90E6B8202130F5D9005720B1 /* Programming With POSIX Threads_en.pdf in Resources */,
 				903BEE3F212DAF3A000E9C9D /* Main.storyboard in Resources */,
 				90E6B7AD2130F546005720B1 /* UNIX环境高级编程（中文第三版）_扫描版_22.2M.pdf in Resources */,
 				90E6B7B02130F546005720B1 /* PDF阅读器下载.url in Resources */,
@@ -537,60 +367,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90E6B79B2130F546005720B1 /* alarm.c in Sources */,
-				90E6B79A2130F546005720B1 /* atfork.c in Sources */,
-				90E6B7A22130F546005720B1 /* cancel_subcontract.c in Sources */,
-				90E6B79E2130F546005720B1 /* trylock.c in Sources */,
-				90E6B7A42130F546005720B1 /* sigev_thread.c in Sources */,
-				90E6B7822130F546005720B1 /* hello.c in Sources */,
-				90E6B77D2130F546005720B1 /* backoff.c in Sources */,
 				903BEE6F212DAFBF000E9C9D /* ViewController.m in Sources */,
-				90E6B7802130F546005720B1 /* cond_attr.c in Sources */,
-				90E6B7A82130F546005720B1 /* workq_main.c in Sources */,
-				90E6B77C2130F546005720B1 /* crew.c in Sources */,
-				90E6B7982130F546005720B1 /* sched_thread.c in Sources */,
-				90E6B7812130F546005720B1 /* tsd_once.c in Sources */,
-				90E6B7792130F546005720B1 /* alarm_thread.c in Sources */,
-				90E6B7942130F546005720B1 /* cond_dynamic.c in Sources */,
-				90E6B7842130F546005720B1 /* pipe.c in Sources */,
-				90E6B7932130F546005720B1 /* putchar.c in Sources */,
-				90E6B79C2130F546005720B1 /* alarm_mutex.c in Sources */,
-				90E6B7AA2130F546005720B1 /* mutex_attr.c in Sources */,
 				903BEE47212DAF3B000E9C9D /* main.m in Sources */,
-				90E6B7A92130F546005720B1 /* getlogin.c in Sources */,
-				90E6B78E2130F546005720B1 /* mutex_static.c in Sources */,
-				90E6B79D2130F546005720B1 /* rwlock.c in Sources */,
-				90E6B77F2130F546005720B1 /* alarm_cond.c in Sources */,
-				90E6B7A72130F546005720B1 /* semaphore_wait.c in Sources */,
-				90E6B78F2130F546005720B1 /* alarm_fork.c in Sources */,
 				903BEE75212DB16B000E9C9D /* Proress.m in Sources */,
-				90E6B78B2130F546005720B1 /* cond.c in Sources */,
-				90E6B7832130F546005720B1 /* tsd_destructor.c in Sources */,
-				90E6B7852130F546005720B1 /* once.c in Sources */,
-				90E6B77E2130F546005720B1 /* flock.c in Sources */,
-				90E6B7892130F546005720B1 /* Makefile in Sources */,
-				90E6B7972130F546005720B1 /* susp.c in Sources */,
-				90E6B7A52130F546005720B1 /* cancel_cleanup.c in Sources */,
-				90E6B7922130F546005720B1 /* barrier_main.c in Sources */,
-				90E6B7A02130F546005720B1 /* thread_attr.c in Sources */,
-				90E6B7872130F546005720B1 /* inertia.c in Sources */,
-				90E6B7962130F546005720B1 /* sigwait.c in Sources */,
-				90E6B7A32130F546005720B1 /* sched_attr.c in Sources */,
-				90E6B7952130F546005720B1 /* cancel_disable.c in Sources */,
-				90E6B7A62130F546005720B1 /* lifecycle.c in Sources */,
-				90E6B78A2130F546005720B1 /* cond_static.c in Sources */,
-				90E6B77A2130F546005720B1 /* thread.c in Sources */,
 				903BEE70212DAFBF000E9C9D /* AppDelegate.m in Sources */,
-				90E6B7862130F546005720B1 /* rwlock_try_main.c in Sources */,
-				90E6B7912130F546005720B1 /* cancel_async.c in Sources */,
-				90E6B7782130F546005720B1 /* thread_error.c in Sources */,
-				90E6B78C2130F546005720B1 /* semaphore_signal.c in Sources */,
-				90E6B7A12130F546005720B1 /* workq.c in Sources */,
-				90E6B79F2130F546005720B1 /* rwlock_main.c in Sources */,
-				90E6B7882130F546005720B1 /* cancel.c in Sources */,
-				90E6B78D2130F546005720B1 /* server.c in Sources */,
-				90E6B77B2130F546005720B1 /* mutex_dynamic.c in Sources */,
-				90E6B7992130F546005720B1 /* barrier.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
